@@ -1,0 +1,27 @@
+h1 {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+body {
+    background-color: #eec170;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 200;
+}
+div {
+    text-align: center;
+}
+em1{
+    color:#006400;
+}
+.picture{
+    border-radius: 100%;
+}
+h2, li{
+    border: 20px;
+    padding: 10px;
+
+}
