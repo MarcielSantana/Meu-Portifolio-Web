@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #006699;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .foto-perfil {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.2rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .redes {
+    margin-top: 1rem;
+  }
+  
+  .redes a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background: #fff;
+    color: #006699;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .redes a:hover {
+    background: #cce7f0;
+  }
+  
+  section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  h2 {
+    color: #006699;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.2rem;
+  }
+  
+  ul li::before {
+    content: "➤";
+    position: absolute;
+    left: 0;
+    color: #006699;
+  }
+  
+  .btn-contato {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: #006699;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-contato:hover {
+    background: #004466;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #006699;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  
